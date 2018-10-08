@@ -1,0 +1,66 @@
+/*
+ * Styles to eledenparavivir.mx
+ */
+
+.main-header {}
+
+.gallery {}
+  .gallery .carousel-inner img {
+    max-height: 75vh;
+    object-fit: cover;
+    filter: grayscale(40%);
+  }
+
+  .gallery #carousel {
+    position: relative;
+  }
+
+  .gallery #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+
+  .btn-eleden {
+    background-color: #ac6404;
+    color: #fff;
+  }
+
+.text-eleden {
+  color: #ac6404 !important;
+}
+
+
+
+
+
+.location {
+  background-color: #392100;
+  color: #fff;
+}
+
+  .location-image {
+    max-width: 100%;
+  }
+
+
+
+
+#footer {}
+.footer-website {
+  background-color: #392100;
+  color: #fff;
+}
+
+  .footer-website a {
+    color: #fff;
+  }
