@@ -13,6 +13,24 @@
         <link rel="stylesheet" href="../css/eleden.css" />
 
         <title>El Edén, el mejor lugar para vivir</title>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '341460433066198');
+          fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=341460433066198&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
     </head>
     <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="98.14">
         <!-- Header -->
@@ -343,5 +361,17 @@
         <script src="//code.tidio.co/whnzxnfwznnta283thxydpefkxsjnjch.js"></script>
         <!-- Apps El Eden -->
         <script src="../js/eleden.js"></script>
+        <script>
+          fbq('track', 'Purchase', {
+            value: 100,
+            currency: 'MXN',
+          });
+        </script>
+        <script>
+          fbq('track', 'Lead', {
+            value: 500,
+            currency: 'MXN',
+          });
+        </script>
     </body>
 </html>
