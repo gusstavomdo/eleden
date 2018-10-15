@@ -253,6 +253,20 @@
                         </a>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 pl-0 pr-0">
+                        <div id="map"></div>
+                            <script>
+                                var map;
+                                function initMap() {
+                                    map = new google.maps.Map(document.getElementById('map'), {
+                                    center: {lat: -98.8264572, lng: 19.5675648},
+                                    zoom: 8
+                                    });
+                                }
+                            </script>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /Location -->
@@ -359,6 +373,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <!-- Tidio Chat -->
         <script src="//code.tidio.co/whnzxnfwznnta283thxydpefkxsjnjch.js"></script>
+        <!-- Map Google -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIfF4Za0ymS-t5l32ACobtOk2MFiLNaE&callback=initMap" async defer></script>
         <!-- Apps El Eden -->
         <script src="../js/eleden.js"></script>
         <script>
