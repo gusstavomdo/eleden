@@ -16,15 +16,19 @@ Route::get('/', function () {
 });
 
 Route::get('/departamentos/gardenias', function () {
-    return view('gardenias');
+    return view('apartments.gardenias');
 });
 
 Route::get('/departamentos/orquideas', function () {
-    return view('orquideas');
+    return view('apartments.orquideas');
 });
 
 Route::get('/departamentos/lirios', function () {
-    return view('margaritas');
+    return view('apartments.lirios');
+});
+
+Route::get('/departamentos/margaritas', function () {
+    return view('apartments.margaritas');
 });
 
 Route::get('/blog', function () {
