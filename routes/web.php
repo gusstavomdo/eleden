@@ -35,6 +35,10 @@ Route::get('/blog', function () {
   return 'Lee nuestro blog cada semana';
 });
 
+Route::get('/regala-netflix', function () {
+  return view('promos.netflix');
+});
+
 Route::get('/name/{name}/lastname/{lastname?}', function ($name, $lastname = null) {
   return 'Bienvenido ' . $name . ' ' . $lastname;
 });
