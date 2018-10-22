@@ -248,17 +248,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-6 pl-0 pr-0">
-                        <div id="map"></div>
-                            <script>
-                                var map;
-                                function initMap() {
-                                    map = new google.maps.Map(document.getElementById('map'), {
-                                    center: {lat: -98.8264572, lng: 19.5675648},
-                                    zoom: 8
-                                    });
-                                }
-                            </script>
+                    <div class="col pl-0 pr-0">
+                        <div class="map-google">
+                            <div id="map"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -365,10 +358,13 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
         <!-- Tidio Chat -->
         <script src="//code.tidio.co/whnzxnfwznnta283thxydpefkxsjnjch.js"></script>
+
         <!-- Map Google -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIfF4Za0ymS-t5l32ACobtOk2MFiLNaE&callback=initMap" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaCOigHcCzWaqICbLOOMFNUdFdaQ3H4Kc&callback=initMap" async defer></script>
+
         <!-- Apps El Eden -->
         <script src="../js/eleden.js"></script>
         <script>

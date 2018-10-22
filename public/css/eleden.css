@@ -69,6 +69,7 @@
 
 
 
-#map {
-  height: 100%;
-}
+.map-google{}
+  .map-google #map {
+    height: 400px;
+  }
