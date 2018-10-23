@@ -56,7 +56,7 @@
                                     Departamentos
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ url('departamentos/gardenias') }}">Gardenias</a>
+                                    <a class="dropdown-item" href="#">Gardenias</a>
                                     <a class="dropdown-item" href="#">Margaritas</a>
                                     <a class="dropdown-item" href="#">Orquídeas</a>
                                     <a class="dropdown-item" href="#">Lirios</a>
@@ -171,13 +171,13 @@
                                 </div>
                                 <h5 class="card-title">Gardenias</h5>
                                 <p class="card-text">Las gardenias son flores lindas y delicadas. Este departamento te ofrece un amplio y cálido espacio donde podrás pasar momentos únicos, tranquilidad... porque lo mereces.</p>
-                                <a href="{{ url('departamentos/gardenias') }}" class="btn btn-primary">Leer más</a>
+                                <a href="#" class="btn btn-primary">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Departamento Gardenias" />
+                            <img class="card-img-top" src="../images/assets/orquideas-02.jpg" alt="Departamento Gardenias" />
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-warning">Departamento</span>
