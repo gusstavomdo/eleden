@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function () { 
+    return view('layouts.main');
 });
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/departamentos/gardenias', function () {
     return view('apartments.gardenias');
