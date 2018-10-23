@@ -177,7 +177,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Departamento Gardenias" />
+                            <img class="card-img-top" src="images/assets/orquideas-03.jpg" alt="Departamento Gardenias" />
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-warning">Departamento</span>
@@ -191,7 +191,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Departamento Gardenias" />
+                            <img class="card-img-top" src="images/assets/lirios-03.jpg" alt="Departamento Gardenias" />
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-warning">Departamento</span>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Departamento Gardenias" />
+                            <img class="card-img-top" src="images/assets/margaritas-02.jpg" alt="Departamento Gardenias" />
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-warning">Departamento</span>
