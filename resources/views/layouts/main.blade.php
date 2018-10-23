@@ -57,9 +57,9 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ url('departamentos/gardenias') }}">Gardenias</a>
-                                    <a class="dropdown-item" href="#">Margaritas</a>
-                                    <a class="dropdown-item" href="#">Orquídeas</a>
-                                    <a class="dropdown-item" href="#">Lirios</a>
+                                    <a class="dropdown-item" href="{{ url('departamentos/orquideas') }}">Orquídeas</a>
+                                    <a class="dropdown-item" href="{{ url('departamentos/lirios') }}">Lirios</a>
+                                    <a class="dropdown-item" href="{{ url('departamentos/margaritas') }}">Margaritas</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -185,7 +185,7 @@
                                 </div>
                                 <h5 class="card-title">Orquídeas</h5>
                                 <p class="card-text">Las orquídeas son flores que tienen colores vivos con grandes pétalos, las orquídeas al igual que nuestras instalaciones ofrecen un amplio y confortable lugar sin dejar a un lado la belleza y la elegancia.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
+                                <a href="{{ url('departamentos/orquideas') }}" class="btn btn-primary">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                                 </div>
                                 <h5 class="card-title">Lirios</h5>
                                 <p class="card-text">Los lirios son flores con largos tallos, coloridos y bellos como ninguna otra flor. Este departamento cuenta con detalles que te brindarán paz y tranquilidad, calidad de vida que tú y tus seres queridos merecen.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
+                                <a href="{{ url('departamentos/lirios') }}" class="btn btn-primary">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                                 </div>
                                 <h5 class="card-title">Margaritas</h5>
                                 <p class="card-text">Las margaritas como las hojas alargadas de esta flor, cuenta con un gran espacio para vivir en familia, habitaciones amplias y cálidas muy confortables. Quizás pienses en colocar un sofá en cada habitación.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
+                                <a href="{{ url('departamentos/margaritas') }}" class="btn btn-primary">Leer más</a>
                             </div>
                         </div>
                     </div>
